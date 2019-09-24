@@ -27,12 +27,12 @@ textarea{
 	border-radius: 5px;
 	border: 1px solid #ccc;
 	box-shadow: 1px 1px 1px #999;
+	border: solid red;
 }
 
-textarea{	/* style */
-	border: solid green; 
+textarea:focus{
+	border: solid green;
 }
-
 
 
 
